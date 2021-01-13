@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AVASocketCluster_Example' do
+  pod 'AVASocketCluster', :path => '../'
+
+  target 'AVASocketCluster_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
