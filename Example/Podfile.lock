@@ -1,15 +1,15 @@
 PODS:
   - AVASocketCluster (0.1.0):
-    - HandyJSON (~> 4.2.0)
+    - HandyJSON (~> 5.0.0-beta.1)
     - Starscream (~> 3.0.5)
-  - HandyJSON (4.2.1)
+  - HandyJSON (5.0.3-beta)
   - Starscream (3.0.6)
 
 DEPENDENCIES:
   - AVASocketCluster (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - HandyJSON
     - Starscream
 
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AVASocketCluster: 76de4344f97e287bd555eadef52784b72bdc68ec
-  HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  AVASocketCluster: 7217307fddde407eac648cbb9495741adda27b39
+  HandyJSON: 88e8ea5f66ab65c3b8768499a1935d0509c460d4
   Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
 
 PODFILE CHECKSUM: f690b262d6d82b4eb76fbd7dedf302c6865a8b4f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.0

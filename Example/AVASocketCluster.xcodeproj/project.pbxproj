@@ -289,17 +289,13 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AVASocketCluster_Example/Pods-AVASocketCluster_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AVASocketCluster_Example/Pods-AVASocketCluster_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AVASocketCluster/AVASocketCluster.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVASocketCluster.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
@@ -307,7 +303,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVASocketCluster_Example/Pods-AVASocketCluster_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AVASocketCluster_Example/Pods-AVASocketCluster_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9FEC0BD6ABA99B93BB079115 /* [CP] Check Pods Manifest.lock */ = {
